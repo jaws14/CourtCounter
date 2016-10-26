@@ -11,7 +11,21 @@
     tools:context="android.delgado.courtcounter.MainActivity">
 
     <TextView
-        android:text="Hello World!"
+        android:id="@+id/title_text_view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Court Counter"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#4689C8"
+        android:textStyle="bold">
 </RelativeLayout>
+
+
+<ProgressBar
+android:id="@+id/progress_bar"
+style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:indeterminate="false"
+android:max="100"
+android:progress="40"
